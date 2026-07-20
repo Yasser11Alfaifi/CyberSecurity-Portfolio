@@ -38,7 +38,7 @@ Shows a stable network. Both Bob's and Alice's devices have unique, independent 
 
 After Spoofing 
 
-<img width="1918" height="728" alt="Screenshot 2026-07-20 170227" src="https://github.com/user-attachments/assets/803978e5-d67a-433d-8122-dec7c04ef0b5" />
+<img width="1476" height="514" alt="Screenshot 2026-07-20 170227" src="https://github.com/user-attachments/assets/ce70cbd2-f190-4c11-8cc6-cf57e5513727" />
 
 
 
