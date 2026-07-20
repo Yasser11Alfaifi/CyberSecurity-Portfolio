@@ -11,13 +11,13 @@ The Attack Mechanism (Via TryHackMe Lab Environment):
 
 Before Spoofing 
 
-![Before Spoofing](Screenshot 2026-07-20 164157.png)
+![Before Spoofing](Screenshot%202026-07-20%20164157.png)
 
 Shows a stable network. Both Bob's and Alice's devices have unique, independent MAC addresses, allowing the router to direct traffic smoothly without any conflict.
 
 After Spoofing 
 
-![After Spoofing](Screenshot 2026-07-20 164359.png)
+![After Spoofing](Screenshot%202026-07-20%20164359.png)
 
 The attacker changed their own device's MAC address programmatically to perfectly match the victim's (Alice). Since routers lack a built-in mechanism to reject duplicate MACs, the router gets confused and starts passing data to the attacker, causing network disruption for the victim and enabling eavesdropping.
 
