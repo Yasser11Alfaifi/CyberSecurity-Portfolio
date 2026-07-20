@@ -11,14 +11,19 @@ The Attack Mechanism (Via TryHackMe Lab Environment):
 
 Before Spoofing 
 
-![Before Spoofing](Screenshot%202026-07-20%20164157.png)
+<img width="1103" height="821" alt="Screenshot 2026-07-20 164157" src="https://github.com/user-attachments/assets/8c43b9a9-4fff-48e1-87fd-56f57c6e7042" />
+
 
 Shows a stable network. Both Bob's and Alice's devices have unique, independent MAC addresses, allowing the router to direct traffic smoothly without any conflict.
 
+
 After Spoofing 
 
-![After Spoofing](Screenshot%202026-07-20%20164359.png)
+<img width="1918" height="728" alt="Screenshot 2026-07-20 170227" src="https://github.com/user-attachments/assets/803978e5-d67a-433d-8122-dec7c04ef0b5" />
+
 
 The attacker changed their own device's MAC address programmatically to perfectly match the victim's (Alice). Since routers lack a built-in mechanism to reject duplicate MACs, the router gets confused and starts passing data to the attacker, causing network disruption for the victim and enabling eavesdropping.
+
+
 
 The Takeaway: Understanding these structural vulnerabilities in network protocols is the first step as a cyber security analyst to build strong detection mechanisms and secure internal corporate networks.
